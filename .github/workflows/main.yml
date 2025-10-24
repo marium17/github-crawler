@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install requests psycopg2-binary python-dotenv gql
 
       - name: Run the GitHub Crawler
         env:
